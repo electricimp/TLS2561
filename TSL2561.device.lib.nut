@@ -5,7 +5,7 @@
  */
 
 /**
- * Simple Ambient Light Sensor driver based on TSL2561
+ * Simple driver for TSL2561 Digital Ambient Light Sensor, based on
  * https://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html
  *
  * @author Terrence Barr <terrence@electricimp.com>
@@ -117,21 +117,21 @@ class TSL2561 {
 }
 
 // Example application code
-local i2c = hardware.i2c0; // imp005 i2c bus
-i2c.configure(CLOCK_SPEED_400_KHZ);
-als <- TSL2561(i2c);
-
-function read() {
-    als.read(function(result) {
-        if (result == null) {
-            server.log("error");
-        } else {
-            server.log("value: " + result);
-        }
-    });    
-    imp.wakeup(2, read);
-}
-
-read(); // loop and print readings
+//local i2c = hardware.i2c0; // imp005 i2c bus
+//i2c.configure(CLOCK_SPEED_400_KHZ);
+//als <- TSL2561(i2c);
+//
+//function read() {
+//    als.read(function(result) {
+//        if (result == null) {
+//            server.log("error");
+//        } else {
+//            server.log("value: " + result);
+//        }
+//    });    
+//    imp.wakeup(2, read);
+//}
+//
+//read(); // loop and print readings
 
 
