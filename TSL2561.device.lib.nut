@@ -6,7 +6,7 @@
 
 /**
  * Simple driver for TSL2561 Digital Ambient Light Sensor, based on
- * https://www.seeedstudio.com/Grove-Digital-Light-Sensor-p-1281.html
+ * http://wiki.seeed.cc/Grove-Digital_Light_Sensor/
  *
  * @author Terrence Barr <terrence@electricimp.com>
  *
