@@ -3,14 +3,14 @@
 The [TSL2561](http://wiki.seeed.cc/Grove-Digital_Light_Sensor/) is a digital ambient light sensor. The TSL2561 can interface over I&sup2;C.
 
 **Note:** 
-This library is not yet part of the official Electric Imp library set and therefore cannot be included via #require statement. To add this library to your project, please copy & paste the libray code at the top of your device code.
+
+This library is not yet part of the official Electric Imp library set and therefore cannot be included via #require statement. To add this library to your project, please copy & paste the library code at the top of your device code.
 
 ## Release Notes
 
 | Version | Description |
 | --- | --- |
 | 0.0.1 | Initial version |
-| 1.0.0 | not yet available |
 
 ## Class Usage
 
