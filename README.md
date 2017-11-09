@@ -2,7 +2,8 @@
 
 The [TSL2561](http://wiki.seeed.cc/Grove-Digital_Light_Sensor/) is a digital ambient light sensor. The TSL2561 can interface over I&sup2;C.
 
-**Note: This library is not yet part of the official Electric Imp library set and therefore cannot be included via #require statement. To add this library to your project, please copy & paste the libray code at the top of your device code.**
+**Note:** 
+This library is not yet part of the official Electric Imp library set and therefore cannot be included via #require statement. To add this library to your project, please copy & paste the libray code at the top of your device code.
 
 ## Release Notes
 
@@ -20,7 +21,7 @@ The constructor takes two arguments to instantiate the class: a *pre-configured*
 ```squirrel
 #require "TSL2561.device.lib.nut:0.0.1"
 
-hardware.i2c89.configure(CLOCK_SPEED_400_KHZ); // imp005 i2c bus. For other imp module, see pinmux.
+hardware.i2c89.configure(CLOCK_SPEED_400_KHZ); // imp005 i2c bus. For other imp modules, see imp pinmux.
 als <- TSL2561(hardware.i2c89);
 ```
 
